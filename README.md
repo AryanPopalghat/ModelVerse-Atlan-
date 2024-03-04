@@ -59,7 +59,7 @@ node server.js
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
+Open [http://localhost:3000/](http://localhost:3000/) to view the application in your browser.
 
 
 ## Contact
