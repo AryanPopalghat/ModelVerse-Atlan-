@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate instead of useHistory
-
+import { useNavigate } from 'react-router-dom'; 
 const Card = styled.div`
     border: 1px solid #ddd;
     border-radius: 8px;
