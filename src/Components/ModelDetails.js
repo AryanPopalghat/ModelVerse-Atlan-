@@ -94,7 +94,7 @@ const ModelDetails = () => {
                     {
                         headers: {
                             'Content-Type': 'application/json',
-                            'Authorization': `Bearer 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` 
+                            'Authorization': `Bearer Open-AI-Key` //Here I am not putting my key because my openAI account is not the paid one and for fetching data from chatgpt it requires paid openAI account
                         },
                     }
                 );
