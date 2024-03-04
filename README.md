@@ -13,19 +13,6 @@ This project is built using the React framework. Major packages include:
 - `styled-components` for styling
 - `react-router-dom` for navigation
 
-## Performance
-
-Page load time is a crucial factor for user experience. We measured the load time using Lighthouse in Chrome DevTools, which provides a detailed report of performance metrics.
-
-## Optimizations
-
-To enhance performance, the following optimizations were implemented:
-
-- **Lazy Loading:** Components are lazy-loaded to reduce the initial load time.
-- **Compression:** Assets are compressed to decrease the size of the files transferred.
-- **Caching:** Implemented caching strategies for API responses to reduce server hits.
-- **Debouncing:** Debounced API calls in search functionalities to limit the number of requests.
-
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
