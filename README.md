@@ -1,6 +1,4 @@
-Creating a README file for a project is a key part of documentation that helps users and contributors understand what the project is about, how to set it up, and how to use it. Below is a sample README in markdown format that you can use for your GitHub repository based on the information provided:
 
-```markdown
 # AI Models Showcase
 
 ## Overview
