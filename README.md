@@ -1,138 +1,70 @@
-
 # AI Models Showcase
 
 ## Overview
 
-AI Models Showcase is a web application designed to present a variety of Artificial Intelligence models. It serves as a platform for users to explore different AI capabilities, such as image captioning, text generation, super-resolution, object detection, and more. The application features a collection of models, each with a detailed view where users can learn more and interact with the AI.
+AI Models Showcase is a web application designed to present a variety of Artificial Intelligence models, including image captioning, text generation, super-resolution, and object detection. This platform allows users to explore and interact with different AI capabilities through a collection of models, each with a detailed view.
 
 ## Technology Stack
 
-This project is built using the React framework. Major packages include:
+This project utilizes a React front end and a Node.js back end, with the following major packages:
 
-- `axios` for making HTTP requests
-- `styled-components` for styling
-- `react-router-dom` for navigation
+### Front End
+- **React**: A JavaScript library for building user interfaces.
+- **axios**: For making HTTP requests.
+- **styled-components**: For component-level styling.
+- **react-router-dom**: For navigation.
+
+### Back End
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express.js**: A web application framework for Node.js.
+- **MongoDB**: A NoSQL database used with Mongoose for data modeling.
 
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps.
+To run this application locally, follow these steps:
 
 ### Prerequisites
 
+Ensure you have the following installed:
 - Node.js
 - npm
+- MongoDB (Ensure it's running on your system)
+
 ```sh
 npm install npm@latest -g
 ```
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repository:
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/AryanPopalghat/ModelVerse-Atlan-.git
 ```
-2. Install NPM packages
+
+2. Install NPM packages:
 ```sh
+# In the project's root directory for the server
 npm install
 ```
-3. Run the application
+
+3. Start the server (backend):
 ```sh
+# In the server's root directory
+node server.js
+```
+
+4. Start the client (frontend) in a new terminal window:
+```sh
+# Ensure you're in the client directory
 npm start
 ```
 
-## Usage
+Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
 
-Navigate through the application to explore various AI models. Each card represents a different model and offers a "View Model" link for detailed insights and interactions.
-
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+- Aryan Adinath Popalghat - [aryanpopalghat4@gmail.com](aryanpopalghat4@gmail.com) 
+- Project Link: [https://github.com/AryanPopalghat/ModelVerse-Atlan-](https://github.com/AryanPopalghat/ModelVerse-Atlan-)
+- Deployed App (Vercel): [https://model-verse-green.vercel.app/](https://model-verse-green.vercel.app/)
 
-Project Link: [https://github.com/your_username_/Project-Name](https://github.com/your_username_/Project-Name)
-
-```
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
