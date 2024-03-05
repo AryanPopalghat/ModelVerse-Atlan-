@@ -1,8 +1,9 @@
 # AI Models Showcase
 
 ## Demo
-Please go over through this website demo before moving forward
-[![ModelVerse](https://img.youtube.com/vi/k5FJYQ9SfPA&t/0.jpg)](https://www.youtube.com/watch?v=k5FJYQ9SfPA&t=8s)
+Please go over through this website demo before moving forward (click on the image to navigate towards the video)
+
+[![ModelVerse](https://img.youtube.com/vi/k5FJYQ9SfPA/0.jpg)](https://www.youtube.com/watch?v=k5FJYQ9SfPA&t=8s)
 
 ## Overview
 
