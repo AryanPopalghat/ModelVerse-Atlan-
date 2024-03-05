@@ -2,7 +2,7 @@
 
 ## Demo
 Please go over through this website demo before moving forward
-[![ModelVerse-Atlan-](https://img.youtube.com/vi/k5FJYQ9SfPA)](https://www.youtube.com/watch?v=k5FJYQ9SfPA)
+[![ModelVerse](https://img.youtube.com/vi/k5FJYQ9SfPA&t/0.jpg)](https://www.youtube.com/watch?v=k5FJYQ9SfPA&t=8s)
 
 ## Overview
 
